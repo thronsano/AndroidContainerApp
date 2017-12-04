@@ -46,7 +46,7 @@ public class HomeActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
 
         //initialize
-        gridView = (GridView) findViewById(R.id.gridView);
+        gridView = findViewById(R.id.gridView);
         containerNamePattern = Pattern.compile(CONTAINER_NAME_PATTERN);
         sharedPreferences = getSharedPreferences("com.example.szaman.androidkonteneryprojekt", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
