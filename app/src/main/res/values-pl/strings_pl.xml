@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Containers</string>
+    <string name="title_activity_home"></string>
+
+    <string name="password">Hasło</string>
+    <string name="login">Nazwa użytkownika</string>
+    <string name="register"><u>Nie posiadasz konta?</u></string>
+    <string name="login_btn">Zaloguj się</string>
+    <string name="register_btn">Zarejestruj</string>
+    <string name="back_to_login"><u>Masz juz konto? Wróć do logowania</u></string>
+    <string name="sign_out">Wyloguj</string>
+    <string name="change_password">Zmień hasło</string>
+    <string name="keep_me_logged_in">Nie wylogowuj mnie</string>
+    <string name="username_error">Nazwa użytkownika musi zawierać od 5 do 15 alfanumerycznych znaków</string>
+    <string name="password_error">Hasło musi zawierać od 5 do 30 znaków, 1 literę i cyfrę!</string>
+    <string name="username_incorrect">Niepoprawna nazwa lub hasło!</string>
+    <string name="successful_login">Logowanie zakończone sukcesem!</string>
+    <string name="email_error">Niepoprawny adres E-mail!</string>
+    <string name="username_taken">Istnieje już użytkownik o takiej nazwie!</string>
+    <string name="successful_registration">Rejestracja zakończona sukcesem!</string>
+    <string name="delete_account">Usuń konto</string>
+    <string name="english">angielski</string>
+    <string name="polish">polski</string>
+    <string name="welcome">Witaj</string>
+    <string name="name">Nazwa:</string>
+    <string name="amount">Ilość:</string>
+    <string name="unit">Jednostka:</string>
+    <string name="container_name_prompt_title">Wprowadź nazwę dla kontenera</string>
+    <string name="name_must_be_unique_to_add">Proszę wypełnić pola aby utworzyć przedmiot.</string>
+    <string name="add_prompt_msg">Nazwa musi być unikalna i alfanumeryczna, składać się od 1 do 15 znaków. W innym wypadku obiekt nie zostanie utworzony.</string>
+    <string name="edit_element_prompt_title">Proszę wypełnić pola aby edytować przedmiot.</string>
+    <string name="name_must_be_unique_to_edit">Nazwa musi być unikalna i alfanumeryczna, składać się od 1 do 15 znaków. W innym wypadku obiekt nie zostanie zmieniony.</string>
+    <string name="delete">usuń</string>
+    <string name="reminder">Przypomnienia</string>
+    <string name="delete_account_title">Czy na pewno chcesz usunąć konto?</string>
+    <string name="delete_account_msg">Wpisz poniżej swoje hasło, aby potwierdzić.</string>
+    <string name="confirm_password">Potwierdź hasło</string>
+    <string name="password_match_error">Wprowadzono różne hasła</string>
+    <string name="new_password">Nowe hasło</string>
+    <string name="change_password_msg">Wpisz obecne hasło, a następnie dwukrotnie hasło, na które pragniesz je zmienić.</string>
+    <string name="password_changed">Hasło zostało zmienione!</string>
+    <string name="password_incorrect">Hasło niepoprawne!</string>
+    <string name="container_deleted">Kontener został usunięty!</string>
+    <string name="delete_element">Usuń element</string>
+    <string name="remind_to_restock">Przypomnij mi o uzupełnieniu</string>
+    <string name="leave_zero">Zostaw z zerową wartością</string>
+    <string name="add_reminder_prompt_msg">Wybierz co chcesz zrobić z elementami o ilości zero</string>
+    <string name="reminder_saved">Przypomnienia uaktualnione!</string>
+    <string name="zeroed_elements_reminder">Nastepujące elementy w wyszczególnionych kontenerach posiadają zerową ilość:</string>
+    <string name="container">Kontener:</string>
+    <string name="delete_if_zeroed">Wybrana opcja przypominania to usuń elementy z wartością zero!</string>
+
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>Polish</item>
+    </string-array>
+
+</resources>

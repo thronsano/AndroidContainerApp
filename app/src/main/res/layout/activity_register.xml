@@ -15,52 +15,69 @@
 
         <EditText
             android:id="@+id/username"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
-            android:hint="@string/username"
-            android:inputType="textPersonName"
+            android:hint="@string/login"
+            android:inputType="textNoSuggestions"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorLightGray"
-            android:textStyle="italic"
-            android:backgroundTint="@color/colorAccent"/>
+            android:textStyle="italic" />
 
         <EditText
             android:id="@+id/password"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/username"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorLightGray"
-            android:textStyle="italic"
-            android:backgroundTint="@color/colorAccent"/>
+            android:textStyle="italic" />
 
         <EditText
-            android:id="@+id/email"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
+            android:id="@+id/confirm_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/password"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorLightGray"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/confirm_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorLightGray"
-            android:textStyle="italic"
-            android:backgroundTint="@color/colorAccent"/>
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/loginButton"
@@ -73,7 +90,7 @@
             android:onClick="register"
             android:paddingLeft="25dp"
             android:paddingRight="25dp"
-            android:text="@string/registerBtn"
+            android:text="@string/register_btn"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -85,9 +102,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="goBackToLogin"
         android:paddingBottom="20dp"
-        android:text="@string/BackToLogin"
+        android:text="@string/back_to_login"
         android:textColor="@color/colorWhite"
-        android:textStyle="italic"
-        android:onClick="goBackToLogin"/>
+        android:textStyle="italic" />
 </RelativeLayout>

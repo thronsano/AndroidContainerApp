@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Containers</string>
+    <string name="title_activity_home"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register"><u>Don\'t have an account yet?</u></string>
+    <string name="login_btn">Log in</string>
+    <string name="register_btn">Register</string>
+    <string name="back_to_login"><u>Already have an account? Go back</u></string>
+    <string name="sign_out">Sign out</string>
+    <string name="change_password">Change password</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="username_error">Username must consist of 5 to 15 alphanumerical note</string>
+    <string name="password_error">Password must consist of 5 to 30 chars, at least 1 letter and number!</string>
+    <string name="username_incorrect">Username or password incorrect!</string>
+    <string name="successful_login">Successful login!</string>
+    <string name="email_error">E-mail address incorrect!</string>
+    <string name="username_taken">Username already taken!</string>
+    <string name="successful_registration">Successful registration!</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="english">english</string>
+    <string name="polish">polish</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name:</string>
+    <string name="amount">Amount:</string>
+    <string name="unit">Unit:</string>
+    <string name="container_name_prompt_title">Select a name for your container</string>
+    <string name="name_must_be_unique_to_add">Please fill the values in order to create the element.</string>
+    <string name="add_prompt_msg">The name must be unique, alphanumerical text consisting of 1 to 15 characters or the element will not be created.</string>
+    <string name="edit_element_prompt_title">Please fill the values in order to edit the element.</string>
+    <string name="name_must_be_unique_to_edit">The name must be unique, alphanumerical text consisting of 1 to 15 characters or the element will not be edited.</string>
+    <string name="delete">delete</string>
+    <string name="reminder">Reminders</string>
+    <string name="delete_account_title">Do you really want to delete your account?</string>
+    <string name="delete_account_msg">Type your password below to confirm.</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password_match_error">Passwords don\'t match</string>
+    <string name="new_password">New password</string>
+    <string name="change_password_msg">Enter your current password and then twice the password that you wish to change to.</string>
+    <string name="password_changed">Password has been changed!</string>
+    <string name="password_incorrect">Password incorrect!</string>
+    <string name="container_deleted">Container has been deleted!</string>
+    <string name="delete_element">Delete element</string>
+    <string name="remind_to_restock">Remind to restock</string>
+    <string name="leave_zero">Leave with zero quantity</string>
+    <string name="add_reminder_prompt_msg">Chose what to do with items that have zero quantity</string>
+    <string name="reminder_saved">Reminders have been updated!</string>
+    <string name="zeroed_elements_reminder">Following items in stated containers have amount equal to zero:</string>
+    <string name="container">Container:</string>
+    <string name="delete_if_zeroed">Currently chosen remind option is to delete zeroed elements!</string>
+</resources>

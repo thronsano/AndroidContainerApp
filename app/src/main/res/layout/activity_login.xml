@@ -7,45 +7,63 @@
     android:background="@color/colorBackground"
     tools:context="com.example.szaman.androidkonteneryprojekt.LoginActivity">
 
-    <RelativeLayout
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
+    <ImageButton
+        android:id="@+id/language_en"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout">
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/colorBackground"
+        android:contentDescription="@string/english"
+        android:src="@drawable/united_kingdom" />
 
+    <ImageButton
+        android:id="@+id/language_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/language_en"
+        android:background="@color/colorBackground"
+        android:contentDescription="@string/polish"
+        android:src="@drawable/poland" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
 
         <EditText
             android:id="@+id/login"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
             android:hint="@string/login"
-            android:inputType="text"
+            android:inputType="textNoSuggestions"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorLightGray"
-            android:textStyle="italic"
-            android:backgroundTint="@color/colorAccent"/>
+            android:textStyle="italic" />
 
         <EditText
             android:id="@+id/password"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/login"
             android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
             android:layout_marginTop="25dp"
+            android:backgroundTint="@color/colorAccent"
             android:gravity="center"
             android:hint="@string/password"
             android:inputType="textPassword"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorLightGray"
-            android:textStyle="italic"
-            android:backgroundTint="@color/colorAccent"/>
+            android:textStyle="italic" />
 
         <Button
             android:id="@+id/loginButton"
@@ -55,37 +73,39 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
             android:background="@color/colorAccent"
-            android:text="@string/loginBtn"
+            android:onClick="login"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/login_btn"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
-            android:paddingRight="40dp"
-            android:paddingLeft="40dp"
-            android:textStyle="bold"
-            android:onClick="login"/>
+            android:textStyle="bold" />
 
 
         <CheckBox
             android:id="@+id/keepLoggedIn"
-            android:textColor="@color/colorAccent"
-            android:buttonTint="@color/colorLightGray"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
             android:layout_below="@+id/password"
+            android:layout_centerInParent="true"
             android:layout_marginStart="48dp"
             android:layout_marginTop="15dp"
-            android:text="Keep me logged in" />
+            android:buttonTint="@color/colorLightGray"
+            android:text="@string/keep_me_logged_in"
+            android:textColor="@color/colorAccent" />
     </RelativeLayout>
 
     <TextView
         android:id="@+id/goToRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="register"
         android:paddingBottom="20dp"
         android:text="@string/register"
         android:textColor="@color/colorWhite"
-        android:textStyle="italic"
-        android:onClick="register"/>
+        android:textStyle="italic" />
+
+
 </RelativeLayout>
